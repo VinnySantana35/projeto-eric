@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+    
+}
+i{
+    font-size: 30px;
+    color: white;
+}
+input{
+    border: none;
+    border-radius: 2px;
+}
+.number{
+    width: 50px;
+}
+button{
+    margin-top: 20px;
+}
+.a{
+    margin-top: 30px;
+}
+.main.bg{
+    background: seashell;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 450px;
+    height: 550px;
+    background: linear-gradient(190deg, rgba(157,10,10,1) 0%, rgba(255,34,34,1) 100%);
+    clip-path: polygon(11% 0, 90% 0, 100% 11%, 100% 89%, 89% 100%, 10% 100%, 0 87%, 0 10%);
+}
+
+.title{
+    margin-bottom: 48px;
+    font-family: 'Baloo 2', cursive;
+}
+
